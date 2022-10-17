@@ -11,7 +11,7 @@ public class Questao2 {
     antecessor = numero - 1;
     sucessor = numero + 1;
 
-    System.out.println(" O número informado fi : " + numero);
+    System.out.println(" O número informado foi : " + numero);
     System.out.println(" O antecessor é : " + antecessor);
     System.out.println(" O Sucessor é " + sucessor);
 
