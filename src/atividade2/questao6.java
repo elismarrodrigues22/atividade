@@ -15,18 +15,18 @@ public class questao6 {
 
     if(imc < 20){
         System.out.println(" abaixao do normal ");
-    }else if((imc >20) && (imc <=25)){
+    }else if((imc >= 20) && (imc < 25)){
         System.out.println(" Normal ");
-    }else if((imc >25) && (imc <=30)){
+    }else if((imc >= 25) && (imc <30)){
         System.out.println(" Sobrepeso ");
-    }else if((imc >30) && (imc <= 35)){
+    }else if((imc >= 30) && (imc <= 35)){
         System.out.println(" obesidade leve ");
-    }else if((imc >35) && (imc <=40)){
+    }else if((imc >= 35) && (imc < 40)){
         System.out.println(" obesidade moderada ");
-    }else if(imc > 40 ){
+    }else if(imc >= 40 ){
         System.out.println(" obesidade morbida");
     }
-
+    System.out.println(" imc : " + imc);
     }
 
     
