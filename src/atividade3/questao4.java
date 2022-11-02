@@ -21,13 +21,15 @@ public class questao4 {
 
                     default:
                     System.out.println("Palavra Incorreta Tente Novamente");
-                    while(qtdTentativas > 0 || palavraDigitada.equals(palavra)){
+                    while(qtdTentativas > 0 && !palavraDigitada.equals(palavra)){
+                        
                         System.out.println(" Quantidade de tentativas " + qtdTentativas);
                         System.out.println("Digite a palavra JAVA-2022 ");
                         palavraDigitada = scan.nextLine();
                         qtdTentativas --;
-                       
+                   
                     }
+                    
         }
 
      

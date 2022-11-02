@@ -9,7 +9,9 @@ public static void main(String[] args) {
     int resultado;
     int numero=0;
 
-    
+   // 1. Escreva um programa que vai ler um número, o sistema vai escrever 
+   // na tela a tabuada de 1 até 10 do número digitado.
+
     
     
   
